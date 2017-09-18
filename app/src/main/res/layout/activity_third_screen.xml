@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cleo.wanderlustapp.ThirdScreen"
+    android:background="@drawable/Background3">
+
+    <ImageView
+        android:id="@+id/iv_title"
+        android:src="@drawable/Title"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:id="@+id/tv_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:text="Select Your Destination!"
+        android:textSize="18sp"
+        android:layout_below="@+id/iv_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignStart="@+id/button15"
+        android:layout_below="@+id/button15"
+        android:text="Marikina City"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button9"
+        android:layout_toEndOf="@+id/button11"
+        android:layout_toRightOf="@+id/button11"
+        android:text="Tagaytay City"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Baguio City"
+        android:textSize="10sp"
+        android:layout_below="@+id/button11"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text="Laguna City"
+        android:textSize="10sp"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/tv_destination"
+        android:layout_alignRight="@+id/tv_destination"
+        android:layout_alignEnd="@+id/tv_destination" />
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cleo.wanderlustapp.FifthScreen"
+    android:background="@drawable/Background3">
+
+    <ImageView
+        android:id="@+id/iv_title"
+        android:src="@drawable/Title"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:id="@+id/tv_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="21dp"
+        android:text="Check out these activities you can do!"
+        android:textSize="18sp"
+        android:layout_below="@+id/iv_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:src="@drawable/berry"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/tv_act"
+        android:layout_alignLeft="@+id/tv_act"
+        android:layout_alignStart="@+id/tv_act"
+        android:id="@+id/iv_berry" />
+
+    <TextView
+        android:id="@+id/tv_berry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Strawberry Farm"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_act"
+        android:layout_alignLeft="@+id/iv_berry"
+        android:layout_alignStart="@+id/iv_berry" />
+
+    <TextView
+        android:id="@+id/tv_description1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="A unique experience for the whole family, you get to pick fresh strawberries to bring home or consume while on vacation in the Summer Capital of the Philippines. "
+        android:layout_below="@+id/tv_berry"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:src="@drawable/horse"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/iv_horse"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/tv_description1"
+        android:layout_toStartOf="@+id/tv_description1"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_horse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horseback Riding"
+        android:textSize="20sp"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/iv_horse"
+        android:layout_alignStart="@+id/iv_horse" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="11dp"
+        android:text="Wright Park Riding Circle located within the flat and wide triangle below it where 200 horses are available for hire. May you be a kid or a kid at heart, you'll surely enjoy riding horses. ther's even pink hair horses!"
+        android:layout_alignTop="@+id/iv_horse"
+        android:layout_alignLeft="@+id/tv_description1"
+        android:layout_alignStart="@+id/tv_description1" />
+
+</RelativeLayout>
+
+
